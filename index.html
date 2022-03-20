@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="top">
+    <span></span>
+    <div id="left">
+      <span class="c"></span>
+      <span class="w"></span>
+    </div>
+    <div id="right"></div>
+  </div>
+  
+  <div id="middle">
+    <div>
+      <form id="login-form">
+      <input type="text" placeholder="Write your Name" maxlength="10" required>
+      <input type="submit" value="LogIn">
+    </form>
+    </div>
+    <div id="middle-left">
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To-Do and press Enter">
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
+  <div id="middle-right">
+    <h2 id="greeting" class="hidden"></h2>
+    <h3 id="today">Here's a today quote for you.</h3>
+    <div id="random-quote">
+      <div id="quote"></div>
+      <div id="author"></div>
+    </div>
+  </div>  
+
+</body>
+  <script src="js/background.js"></script>  
+  <script src="js/weather.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/quotes.js"></script>
+</html>
